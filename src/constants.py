@@ -7,4 +7,6 @@ MAIL_ITEM = 0
 
 # Set in configuration files or overwritten in cmdline
 
-DISPLAY = interface_dict.get('display', True) # instead of sending in background each email is created but you must press the send button yourself
+DISPLAY = interface_dict.get(
+    "display", True
+)  # instead of sending in background each email is created but you must press the send button yourself

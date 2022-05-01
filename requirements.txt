@@ -1,2 +1,3 @@
 mjml
 pywin32
+pytest

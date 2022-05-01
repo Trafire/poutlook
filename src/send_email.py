@@ -4,7 +4,7 @@ from .constants import DISPLAY, MAIL_ITEM
 
 
 def emailer(recipients, subject, text) -> None:
-    outlook = win32.Dispatch('outlook.application')
+    outlook = win32.Dispatch("outlook.application")
     mail = outlook.CreateItem(MAIL_ITEM)
     mail.To = recipients
     mail.Subject = subject

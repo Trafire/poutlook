@@ -2,9 +2,6 @@ import configparser
 
 
 config = configparser.RawConfigParser()
-config.read('config.toml')
+config.read("config.toml")
 
-interface_dict = dict(config.items('INTERFACE'))
-
-
-
+interface_dict = dict(config.items("INTERFACE"))
